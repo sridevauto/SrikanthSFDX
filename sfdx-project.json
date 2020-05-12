@@ -1,16 +1,26 @@
 {
-  "packageDirectories" : [ {
-    "path" : "srisfdxmodule",
-    "default" : true,
-    "package" : "srisfdxmodule",
-    "versionName" : "srisfdxmodule",
-    "versionNumber" : "1.0.0.0"
-  } ],
-  "namespace" : "",
-  "sfdcLoginUrl" : "https://login.salesforce.com",
-  "sourceApiVersion" : "48.0",
-  "packageAliases" : {
-    "srisfdxmodule" : "0Ho2x000000CaT8CAK",
-    "srisfdxmodule@1.0.0.0" : "04t2x0000023IHOAA2"
-  }
+    "packageDirectories": [
+        {
+            "path": "srisfdxmodule",
+            "default": true,
+            "package": "srisfdxmodule",
+            "versionName": "srisfdxmodule",
+            "versionNumber": "1.0.0.0"
+        },
+        {
+            "path": "srisfdxmodule",
+            "package": "sriunlock",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "srisfdxmodule": "0Ho2x000000CaT8CAK",
+        "srisfdxmodule@1.0.0.0": "04t2x0000023IHOAA2",
+        "sriunlock": "0Ho2x000000CaTDCA0"
+    }
 }
